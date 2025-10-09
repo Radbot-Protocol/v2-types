@@ -3,5 +3,10 @@ pragma solidity ^0.8.20;
 
 import {IAgentV2Errors} from "./agent/IAgentV2Errors.sol";
 import {IAgentV2Immutables} from "./agent/IAgentV2Immutables.sol";
+import {IAgentV2CreatorActions} from "./agent/IAgentV2CreatorActions.sol";
 
-interface IAgentV2 is IAgentV2Errors, IAgentV2Immutables {}
+interface IAgentV2 is
+    IAgentV2Errors,
+    IAgentV2Immutables,
+    IAgentV2CreatorActions
+{}
