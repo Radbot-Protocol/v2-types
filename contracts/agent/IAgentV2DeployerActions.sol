@@ -8,4 +8,6 @@ interface IAgentV2DeployerActions {
         uint256 tokenId,
         IAgentV2Types.AgentV2Attributes calldata attributes
     ) external;
+
+    function ignite(bytes calldata data) external;
 }

@@ -3,4 +3,6 @@ pragma solidity ^0.8.20;
 
 interface IAgentV2Immutables {
     function maxAgents() external view returns (uint256);
+
+    function factory() external view returns (address);
 }
