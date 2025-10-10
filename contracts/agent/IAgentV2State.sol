@@ -6,5 +6,5 @@ interface IAgentV2State {
         uint256 deployments,
         uint256 yield,
         bool isDeployed
-    ) external view returns (uint256, uint256, bool);
+    ) external view returns (uint256);
 }
