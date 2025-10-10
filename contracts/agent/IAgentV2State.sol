@@ -6,5 +6,8 @@ import {IAgentV2Types} from "./IAgentV2Types.sol";
 interface IAgentV2State {
     function getAttributes(
         uint256 tokenId
-    ) external view returns (IAgentV2Types.AgentV2Attributes memory);
+    )
+        external
+        view
+        returns (uint256 deployments, uint256 yield, bool isDeployed);
 }
