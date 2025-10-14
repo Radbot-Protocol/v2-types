@@ -4,6 +4,7 @@ pragma solidity ^0.8.20;
 interface IUserV2Types {
     struct UserV2Metadata {
         bytes16 username;
+        bool isActive;
         uint256 createdAt;
     }
 
